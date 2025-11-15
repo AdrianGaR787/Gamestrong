@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css"/>
+  </head>
+  <body>
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img
+          height="92"
+          width="92"
+          src="imagenes/70e902945f52904d0fdd033d7500877d.png"
+          alt=""
+        />
+      </a>
+      <ul class="Menu-Horizontal">
+        <li><a href="">Inicio</a></li>
+        <li>
+          <a href="">Juegos</a>
+          <ul class="Menu-Vertical">
+            <li><a href=""> Juegos recientes</a></li>
+            <li><a href=""> Juegos en ofertas de primavera</a></li>
+            <li><a href=""> Juegos en ofertas de verano</a></li>
+            <li><a href=""> Juegos en ofertas de otoño</a></li>
+            <li><a href=""> Juegos en ofertas de invierno</a></li>
+          </ul>
+        </li>
+        <li><a href="#contactanos">Contactanos</a></li>
+        <li><a href="">Cuenta</a></li>
+      </ul>
+    </nav>
+
+    <!--SECCIONES-->
+    <section class="seccion-creditos">
+      <div class="cont-gral-creditos">
+        <div class="cont-cred-texto">
+          <h2>GameStrong</h2>
+          <p>
+            Game Strong es una tienda en línea especializada en la venta de
+            videojuegos digitales y físicos a precios más accesibles que el
+            mercado tradicional. Su objetivo es ofrecer a los jugadores las
+            mejores ofertas sin sacrificar calidad ni seguridad. En Game Strong
+            puedes encontrar títulos de consolas compatibles solo para PC, con
+            descuentos exclusivos y promociones semanales. La plataforma cuenta
+            con un sistema de compra fácil y rápido, métodos de pago seguros y
+            entregas instantáneas de claves digitales.
+          </p>
+        </div>
+
+        <div class="cont-seg-video">
+          <iframe
+            width="150"
+            height="315"
+            src="https://www.youtube.com/embed/hNNjJ5Q9Dcw?si=NOcPyyJ62dp9_h00"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          >
+          </iframe>
+    </section>
+
+    <!--SECCION SEGUROS-->
+    <section class="seccion-seguros">
+      <div class="cont-gral-seguros">
+        <div class="cont-seg-texto">
+          <h2>Juegos recientes:</h2>
+        </div>
+        <div class="cont-seg-img"></div>
+        <img
+          height="197"
+          width="150"
+          src="imagenes2/ps5-amazon-australia-box-art_fp5k.jpg"
+          alt=""
+        />
+        <img
+          height="220"
+          width="200"
+          src="imagenes2/godfall-caratula-ps5-1992751.webp"
+        />
+        <img
+          height="270"
+          width="180"
+          src="imagenes2/98CX-Y4K2399187-medium_w640_h480_q75-hollowknightsilksongportadaps5-1655109489.png"
+        />
+        <img
+        height="318"
+        width="180"
+        src="imagenes2/images.jpg"
+      />
+      <img
+      height="250"
+      width="180"
+      src="imagenes2/ASTRO0001.webp"
+    />
+      </div>
+
+      <div class="cont-seg-video">
+    
+        <section class="Seccion-formulario" id="contactanos">
+          <div class="cont-gral-formulario">
+            <h2>Formulario de registro</h2>
+            <p>Complete todos los datos y sus preferencias</p>
+
+            <form class="formulario">
+              <div class="campo">
+                <label form="nombre">Nombres Completos:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+              </div>
+
+      <div class="campo">
+        <label for=pais>Pais:</label>
+
+        <select id="pais" name="pais">
+          <option value="">Seleccione un pais</option>
+          <option value="Peru">Peru</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Mexico">Mexico</option>
+        </select>
+      </div>
+
+      <div class="campo">
+        <label>Intereses en juegos:</label>
+        <ul class="list-checkbox">
+          <li><label><input type = "checkbox" name"intereses" value="tecnologia">PS4/PS5</label></li>
+          <li><label><input type = "checkbox" name"intereses" value="educacion">XBOX</label></li>
+          <li><label><input type = "checkbox" name"intereses" value="tecnologia">NINTENDO</label></li>
+        </ul>      
+      </div>
+      <!-- raddio buttom-->
+      <div class="campo">
+        <label> Genero </label>
+        <ul class = "lista-radio">
+          <li>
+            <label><input type="checkbox" name"genero"
+              value="masculino"> Masculino</label>
+            </li>
+            
+            <li> 
+              <label><input type="checkbox" name"genero" 
+                value="masculino"> Femenino</label>
+            </li>
+          </ul>
+        </div>
+
+        <button type="submit"> Enviar</button>
+      </form>
+    </div>
+  </section>
+  <!--PIE DE PAGINA-->
+  <section class = "seccion-footer">
+     <div class="cont-grl-footer">
+        <div class="footer-info">
+            <h3>Acerca de nosotros</h3>
+            <p>En 2021 un grupo de jovenes se les ocurrió una idea. Una idea que estaba que tenia todo que ver
+              con el mundo del entretinimiento.
+            </p>
+          </div>
+          <!--POLITICAS Y PROTECCION DE DATOS-->
+          <div class="footer-politica">
+            <h3>Proteccion de datos</h3>
+            <ul class="lista-proteccion">
+              <li><a href="">Ley Proteccion Datos</a></li>
+              <li><a href="">Politicas</a></li>
+              <li><a href="">Normas</a></li>
+              <li><a href="">Reglamentos</a></li>
+        </div>
+
+        <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+            height="92"
+            width="92"
+            src="imagenes/70e902945f52904d0fdd033d7500877d.png"
+            alt=""
+          />
+          
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+          <small>© 2025 Todos los derechos reservados</small>
+        </div>
+      </footer>
+    </section>
+      </body>
+      </html>
