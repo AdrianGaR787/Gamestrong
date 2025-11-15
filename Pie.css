@@ -20,7 +20,7 @@
 /* Marca o logotipo */
 .footer-brand {
   flex: 1;
-  min-width: 200px;
+  min-width: 20px;
   border: solid black;
 }
 
