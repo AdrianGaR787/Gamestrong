@@ -23,8 +23,7 @@
   min-width: 20px;
   border: solid black;
 }
-
-.footer-logo {
+.cont-brand-img .footer-logo {
   width: 60px;
   height: auto;
   margin-bottom: 0.5rem;
