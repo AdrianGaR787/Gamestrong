@@ -126,7 +126,7 @@
 }
 /*Formulario*/
 .Seccion-formulario {
-  list-style:none;
+  list-style: none;
   background-color: rgb(63, 42, 255);
   padding: 40px;
   border: 3px;
@@ -136,7 +136,7 @@
   margin-bottom: 40px;
 }
 .cont-gral-formulario {
-  list-style:none;
+  list-style: none;
   background-color: rgb(21, 67, 167);
   padding: 30px;
   border: 2px solid rgb(32, 90, 252);
@@ -147,35 +147,34 @@
   color: white;
 }
 .campo {
-  list-style:none;
+  list-style: none;
   background-color: rgb(19, 67, 172);
   padding: 15px;
   border: 1.5px solid rgb(53, 102, 207);
-  border radius: 15px;
+  border-radius: 15px;
   margin-bottom: 15px;
-
 }
-.formulario label{
-  list-style:none;
-  display:block;
+.formulario label {
+  list-style: none;
+  display: block;
   font-weight: 200;
-  margin-bottom:8px;
+  margin-bottom: 8px;
   color: white;
 }
-.formulario input[type="text"], 
-formulario select{
-  list-style:none;
-  width:100%;
+.formulario input[type="text"],
+formulario select {
+  list-style: none;
+  width: 100%;
   padding: 1px;
   border: 1.5px solid black;
 }
 .list-checkbox,
-.lista-radio{
+.lista-radio {
   padding: 1px;
   border-radius: 15px;
-  list-style:none;
+  list-style: none;
 }
-.formulario button{
+.formulario button {
   background-color: white;
   padding: 10px 20px;
   color: black;
@@ -184,40 +183,40 @@ formulario select{
   cursor: pointer;
 }
 /*PIE DE PAGINA*/
-.seccion-footer{
-  background-color:rgb(22, 64, 253);
+.seccion-footer {
+  background-color: rgb(22, 64, 253);
   color: white;
   padding: 40px 20px;
   border-radius: 15px;
 }
-.cont-gral-footer{
-  display:flex;
+.cont-gral-footer {
+  display: flex;
   justify-content: space-between;
   align-items: flex-start;
   max-width: 1200px;
   margin: 0 auto;
   gap: 40px;
 }
-.footer-info{
-  flex:1
+.footer-info {
+  flex: 1;
 }
-.footer-info h3{
-  color:white;
+.footer-info h3 {
+  color: white;
   margin-bottom: 15px;
 }
-.footer-redes{
-  flex:1;
+.footer-redes {
+  flex: 1;
 }
-.footer-redes h3{
-  color:white;
+.footer-redes h3 {
+  color: white;
   margin-bottom: 15px;
 }
-.lista-redes{
-  list-style:none;
+.lista-redes {
+  list-style: none;
   padding: 0;
 }
-.lista-redes li{
-  margin-bottom:8px;
+.lista-redes li {
+  margin-bottom: 8px;
 }
 .lista-redes li a {
   text-decoration: none;
