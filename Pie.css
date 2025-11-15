@@ -21,9 +21,11 @@
 .footer-brand {
   flex: 1;
   min-width: 20px;
+}
+.cont-brand-img img {
   border: solid black;
 }
-.cont-brand-img .footer-logo {
+.footer-logo {
   width: 60px;
   height: auto;
   margin-bottom: 0.5rem;
