@@ -203,6 +203,8 @@ formulario select {
   max-width: 1200px;
   margin: 0 auto;
   gap: 40px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
 }
 .footer-info {
   flex: 1;
