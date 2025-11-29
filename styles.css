@@ -7,6 +7,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
 }
 .Menu-Horizontal {
   list-style: none;
@@ -57,8 +59,6 @@
   gap: 40px;
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 .cont-cred-texto {
   flex: 1;
