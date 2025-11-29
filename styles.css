@@ -10,13 +10,20 @@
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
 }
+
+.menu-toggle {
+  display: none; /* Oculto por defecto */
+  font-size: 2rem; /* Tamaño del ícono hamburguesa */
+  border: none; /* Sin bordes */
+  cursor: pointer; /* Manito al pasar el mouse */
+  margin-right: 1rem; /* Espacio entre el borde derecho */
+  background-color: blue;
+}
 .Menu-Horizontal {
   list-style: none;
   display: flex;
   justify-content: space-around;
   width: 100%;
-}
-.Menu-Horizontal {
 }
 .Menu-Horizontal li a {
   text-decoration: none;
@@ -86,6 +93,8 @@
 .seccion-seguros {
   padding: 60px 20px;
   background-color: white;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
 }
 .cont-gral-seguros {
   display: flex;
@@ -152,6 +161,8 @@
   width: 100%;
   max-width: 500px;
   color: white;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
 }
 .campo {
   list-style: none;
@@ -167,6 +178,8 @@
   font-weight: 200;
   margin-bottom: 8px;
   color: white;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
 }
 .formulario input[type="text"],
 formulario select {
@@ -195,6 +208,8 @@ formulario select {
   color: white;
   padding: 40px 20px;
   border-radius: 15px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
 }
 .cont-gral-footer {
   display: flex;
@@ -282,5 +297,30 @@ formulario select {
 
   .footer-social img {
     margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Mostrar botón hamburguesa en móviles */
+    color: black;
+  }
+
+  .Menu-Horizontal {
+    display: none; /* Ocultar menú horizontal por defecto */
+    flex-direction: column; /* Mostrarlo en vertical al activarse */
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 5rem; /* Debajo del menú fijo */
+    left: 0;
+  }
+
+  .Menu-Horizontal.active {
+    display: flex; /* Mostrar menú al activar la clase */
+  }
+
+  .Menu-Horizontal li {
+    border-bottom: 1px solid #ccc; /* Líneas separadoras */
   }
 }
