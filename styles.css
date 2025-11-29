@@ -55,6 +55,10 @@
   max-width: 1200px;
   margin: 0 auto;
   gap: 40px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 .cont-cred-texto {
   flex: 1;
